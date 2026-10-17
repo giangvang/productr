@@ -1,0 +1,205 @@
+PS C:\Users\ASUS> mkdir book-landing-page
+
+
+    Directory: C:\Users\ASUS
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        10/17/2026  10:20 PM                book-landing-page
+
+
+PS C:\Users\ASUS> cd book-landing-page
+PS C:\Users\ASUS\book-landing-page> mkdir css
+
+
+    Directory: C:\Users\ASUS\book-landing-page
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        10/17/2026  10:21 PM                css
+
+
+PS C:\Users\ASUS\book-landing-page> @'
+>> <!DOCTYPE html>
+>> <html lang="vi">
+>> <head>
+>>     <meta charset="UTF-8">
+>>     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+>>     <title>Sách: Khám Phá Vũ Trụ Web</title>
+>>     <!-- Bootstrap 5 CSS -->
+>>     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+>>     <link rel="stylesheet" href="css/style.css">
+>> </head>
+>> <body data-bs-spy="scroll" data-bs-target="#navbar" data-bs-offset="70">
+>>
+>>     <!-- 1. Header / Navbar -->
+>>     <nav id="navbar" class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+>>         <div class="container">
+>>             <a class="navbar-brand" href="#">BookStore</a>
+>>             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+>>                 <span class="navbar-toggler-icon"></span>
+>>             </button>
+>>             <div class="collapse navbar-collapse" id="navbarNav">
+>>                 <ul class="navbar-nav ms-auto">
+>>                     <li class="nav-item"><a class="nav-link" href="#overview">Tổng quan</a></li>
+>>                     <li class="nav-item"><a class="nav-link" href="#author">Tác giả</a></li>
+>>                     <li class="nav-item"><a class="nav-link" href="#features">Tính năng</a></li>
+>>                     <li class="nav-item"><a class="nav-link" href="#prices">Bảng giá</a></li>
+>>                     <li class="nav-item"><a class="nav-link" href="#reviews">Đánh giá</a></li>
+>>                 </ul>
+>>             </div>
+>>         </div>
+>>     </nav>
+>>
+>>     <!-- 2. Book Overview -->
+>>     <section id="overview" class="py-5">
+>>         <div class="container">
+>>             <div class="row align-items-center">
+>>                 <div class="col-md-6 text-center mb-4 mb-md-0">
+>>                     <img src="https://via.placeholder.com/350x500?text=Bia+Sach" alt="Bìa sách" class="img-fluid rounded shadow">
+>>                 </div>
+>>                 <div class="col-md-6">
+>>                     <h1 class="display-4 fw-bold">Khám Phá Vũ Trụ Web</h1>
+>>                     <p class="lead text-muted">Hướng dẫn toàn diện từ cơ bản đến nâng cao về HTML, CSS, SASS và Bootstrap dành cho lập trình viên hiện đại.</p>
+>>                     <a href="#download" class="btn btn-primary btn-lg mt-3">Tải bản đọc thử</a>
+>>                 </div>
+>>             </div>
+>>         </div>
+>>     </section>
+>>
+>>     <!-- 3. Author -->
+>>     <section id="author" class="py-5 bg-light">
+>>         <div class="container text-center">
+>>             <h2 class="mb-4">Về Tác Giả</h2>
+>>             <img src="https://via.placeholder.com/150" alt="Tác giả" class="rounded-circle mb-3 shadow">
+>>             <h4>Nguyễn Văn A</h4>
+>>             <p class="text-muted mx-auto" style="max-width: 600px;">Là một chuyên gia phát triển web với hơn 10 năm kinh nghiệm, Nguyễn Văn A đã giúp hàng ngàn sinh viên làm chủ công nghệ và xây dựng sự nghiệp thành công.</p>
+>>         </div>
+>>     </section>
+>>
+>>     <!-- 4. Features -->
+>>     <section id="features" class="py-5">
+>>         <div class="container text-center">
+>>             <h2 class="mb-5">Tại Sao Bạn Nên Đọc Cuốn Sách Này?</h2>
+>>             <div class="row g-4">
+>>                 <div class="col-md-4">
+>>                     <div class="card h-100 border-0 shadow-sm p-3">
+>>                         <div class="card-body">
+>>                             <h5 class="card-title">Dễ Hiểu</h5>
+>>                             <p class="card-text text-muted">Ngôn từ gần gũi, ví dụ thực tế giúp bạn nắm bắt kiến thức nhanh chóng.</p>
+>>                         </div>
+>>                     </div>
+>>                 </div>
+>>                 <div class="col-md-4">
+>>                     <div class="card h-100 border-0 shadow-sm p-3 bg-primary text-white">
+>>                         <div class="card-body">
+>>                             <h5 class="card-title">Thực Hành Cao</h5>
+>>                             <p class="card-text">Hàng chục bài tập và dự án thực tế đi kèm mã nguồn mở trên GitHub.</p>
+>>                         </div>
+>>                     </div>
+>>                 </div>
+>>                 <div class="col-md-4">
+>>                     <div class="card h-100 border-0 shadow-sm p-3">
+>>                         <div class="card-body">
+>>                             <h5 class="card-title">Cập Nhật Liên Tục</h5>
+>>                             <p class="card-text text-muted">Bao gồm những kỹ thuật CSS và Bootstrap 5 mới nhất năm 2026.</p>
+>>                         </div>
+>>                     </div>
+>>                 </div>
+>>             </div>
+>>         </div>
+>>     </section>
+>>
+>>     <!-- 5. Prices -->
+>>     <section id="prices" class="py-5 bg-light">
+>>         <div class="container text-center">
+>>             <h2 class="mb-5">Bảng Giá Mua Sách</h2>
+>>             <div class="row justify-content-center g-4">
+>>                 <div class="col-md-4">
+>>                     <div class="card shadow-sm h-100">
+>>                         <div class="card-header py-3"><h4 class="my-0 fw-normal">E-Book</h4></div>
+>>                         <div class="card-body">
+>>                             <h1 class="card-title pricing-card-title">199.000đ</h1>
+>>                             <ul class="list-unstyled mt-3 mb-4">
+>>                                 <li>Định dạng PDF/EPUB</li>
+>>                                 <li>Truy cập mã nguồn</li>
+>>                                 <li>Hỗ trợ qua Email</li>
+>>                             </ul>
+>>                             <button type="button" class="w-100 btn btn-lg btn-outline-primary">Mua ngay</button>
+>>                         </div>
+>>                     </div>
+>>                 </div>
+>>                 <div class="col-md-4">
+>>                     <div class="card shadow border-primary h-100">
+>>                         <div class="card-header py-3 text-white bg-primary border-primary">
+>>                             <h4 class="my-0 fw-normal">Bản In (Đề xuất)</h4>
+>>                         </div>
+>>                         <div class="card-body">
+>>                             <h1 class="card-title pricing-card-title">299.000đ</h1>
+>>                             <ul class="list-unstyled mt-3 mb-4">
+>>                                 <li>Sách in màu chất lượng cao</li>
+>>                                 <li>Tặng kèm E-Book</li>
+>>                                 <li>Giao hàng miễn phí toàn quốc</li>
+>>                             </ul>
+>>                             <button type="button" class="w-100 btn btn-lg btn-primary">Mua ngay</button>
+>>                         </div>
+>>                     </div>
+>>                 </div>
+>>             </div>
+>>         </div>
+>>     </section>
+>>
+>>     <!-- 6. Reader's Say (Reviews) -->
+>>     <section id="reviews" class="py-5">
+>>         <div class="container text-center">
+>>             <h2 class="mb-5">Độc Giả Nói Gì?</h2>
+>>             <div class="row">
+>>                 <div class="col-md-6 mb-4">
+>>                     <blockquote class="blockquote border-start border-4 border-primary p-3 bg-light text-start">
+>>                         <p class="mb-3">"Cuốn sách thay đổi hoàn toàn tư duy của tôi về dàn trang CSS. Bootstrap trở nên cực kỳ dễ hiểu!"</p>
+>>                         <footer class="blockquote-footer">Trần T. - Sinh viên IT</footer>
+>>                     </blockquote>
+>>                 </div>
+>>                 <div class="col-md-6 mb-4">
+>>                     <blockquote class="blockquote border-start border-4 border-primary p-3 bg-light text-start">
+>>                         <p class="mb-3">"Rất chi tiết và thực tế. Các dự án mẫu giúp tôi có thể tự tin apply vào vị trí Front-end."</p>
+>>                         <footer class="blockquote-footer">Lê H. - Lập trình viên</footer>
+>>                     </blockquote>
+>>                 </div>
+>>             </div>
+>>         </div>
+>>     </section>
+>>
+>>     <!-- 7. Download -->
+>>     <section id="download" class="py-5 bg-dark text-white text-center">
+>>         <div class="container">
+>>             <h2 class="mb-3">Sẵn Sàng Để Bắt Đầu?</h2>
+>>             <p class="mb-4">Tải ngay chương 1 miễn phí để trải nghiệm phong cách viết của tác giả.</p>
+>>             <a href="#" class="btn btn-outline-light btn-lg px-5">Tải Chương 1 (PDF)</a>
+>>         </div>
+>>     </section>
+>>
+>>     <!-- 8. Footer -->
+>>     <footer class="py-4 bg-secondary text-center text-light">
+>>         <div class="container">
+>>             <p class="mb-0">&copy; 2026 BookStore. Đã đăng ký bản quyền.</p>
+>>         </div>
+>>     </footer>
+>>
+>>     <!-- Bootstrap 5 JS Bundle -->
+>>     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+>> </body>
+>> </html>
+>> '@ | Out-File -FilePath "index.html" -Encoding UTF8
+PS C:\Users\ASUS\book-landing-page> @'
+>> body {
+>>     scroll-behavior: smooth;
+>> }
+>> .card:hover {
+>>     transition: 0.3s;
+>>     transform: translateY(-5px);
+>> }
+>> '@ | Out-File -FilePath "css\style.css" -Encoding UTF8
+PS C:\Users\ASUS\book-landing-page>
